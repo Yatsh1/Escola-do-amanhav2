@@ -1,0 +1,75 @@
+.icon-sidebar-menu {
+	width: 55px;
+	background-color: #2c3e50;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	position: relative;
+	height: 928px;
+	overflow-y: auto;
+}
+
+.list-icon {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+.list-icon li {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+	color: white;
+	font-size: 20px;
+	display: block;
+	padding: 15px 0;
+	transition: all 0.3s ease;
+	z-index: 1;
+}
+
+.list-icon li a.selected i {
+	color: #fff;
+}
+
+.list-icon li a.selected::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 40px;
+	height: 40px;
+	background-color: #3498db;
+	border-radius: 50%;
+	z-index: -1;
+}
+
+.action-button {
+	background-color: #007bff;
+	color: white;
+	border: none;
+	padding: 6px 10px;
+	cursor: pointer;
+	border-radius: 3px;
+}
+
+.action-button:hover {
+	background-color: #0056b3;
+}
+
+.icon-button {
+	cursor: pointer;
+	padding: 5px;
+	border: none;
+	background: none;
+}
+
+.icon-button:hover {
+	color: #0056b3;
+}
+.list-icon:hover{
+	cursor: pointer;
+}

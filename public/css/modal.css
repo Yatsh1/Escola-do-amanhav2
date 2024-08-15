@@ -1,0 +1,51 @@
+.form-container {
+	padding: 20px;
+	height: 100%;
+	overflow-y: auto;
+	position: relative;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+.form-group label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.form-group.full-width {
+	width: 100%;
+}
+
+.form-row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+
+.form-row .form-group {
+	flex: 1;
+	min-width: calc(50% - 15px);
+}
+
+.form-row .form-group.full-width {
+	min-width: 100%;
+}
+
+.close-form {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+	font-size: 24px;
+	color: #333;
+}

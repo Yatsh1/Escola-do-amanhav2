@@ -1,0 +1,14 @@
+.content {
+	flex: 1;
+	padding: 20px;
+	background-color: #f8f9fa;
+	overflow: auto;
+	box-sizing: border-box;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
+}

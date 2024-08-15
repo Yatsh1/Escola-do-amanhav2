@@ -1,0 +1,44 @@
+/* Remove a linha vertical do último cartão */
+
+/* Títulos */
+
+/* Submenu Lateral */
+
+/* Overlay e Blackout */
+
+/* Formulários */
+
+/* Tabelas */
+.pacientes-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+.pacientes-table th,
+.pacientes-table td {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+.pacientes-table th {
+	background-color: #f4f4f4;
+	text-align: left;
+}
+
+.pacientes-table th,
+.pacientes-table td {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.pacientes-table th.left-align,
+.pacientes-table td.left-align {
+	text-align: left;
+}
+
+/* Botões de Ação */
+
+/* Barra de Pesquisa */
+
+/* Media Queries */

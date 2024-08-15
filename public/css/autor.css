@@ -1,0 +1,32 @@
+.autores-table,
+.alunos-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+.autores-table th,
+.autores-table td,
+.alunos-table td,
+.alunos-table th {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.autores-table th {
+	background-color: #f4f4f4;
+	text-align: left;
+}
+
+.autores-table th,
+.autores-table td {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.autores-table th.left-align,
+.autores-table td.left-align {
+	text-align: left;
+}

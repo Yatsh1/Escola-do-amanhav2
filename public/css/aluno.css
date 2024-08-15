@@ -1,0 +1,58 @@
+.alunos-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+.alunos-table th,
+.alunos-table td {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+.alunos-table th {
+	background-color: #f4f4f4;
+	text-align: left;
+}
+
+.alunos-table th,
+.alunos-table td {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.alunos-table th.left-align,
+.alunos-table td.left-align {
+	text-align: left;
+}
+
+/* Estilos para botões e formulários */
+.search-container {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.search-container input {
+	flex: 1;
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+.search-container button {
+	margin-left: 10px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	padding: 10px 15px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.aluno-item {
+	border-bottom: 1px solid #ddd;
+	padding: 10px;
+}

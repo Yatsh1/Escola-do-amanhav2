@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud School Admin</title>
+
+    <!-- CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js" defer></script>
+    <link rel="stylesheet" href="./css/canvas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Toastify CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/aluno.css">
+    <link rel="stylesheet" href="css/autor.css">
+    <link rel="stylesheet" href="css/blackout.css">
+    <link rel="stylesheet" href="css/canvas.css">
+    <link rel="stylesheet" href="css/container.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/pagination.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/submenu.css">
+</head>
+
+<body>
+    <div class="container">
+        <aside class="icon-sidebar-menu">
+            <ul class="list-icon">
+                <li onclick="loadModule('home')" title="Home"><i class="fas fa-home"></i></li>
+                <li onclick="loadModule('biblioteca')" title="Biblioteca"><i class="fas fa-book"></i></li>
+                <li onclick="loadModule('cadastros')" title="Cadastros"><i class="fas fa-edit"></i></li>
+                <li onclick="loadModule('configuracoes')" title="Configurações"><i class="fas fa-cog"></i></li>
+            </ul>
+        </aside>
+
+        <aside class="submenu-sidebar">
+            <div id="submenu-content">
+                <img src="./assets/csa-logo.jpg" alt="Logo" width="150" class="logo">
+                <span id="show"></span>
+            </div>
+        </aside>
+        <!-- Conteúdo Principal -->
+        <main class="content" id="main"></main>
+        <span id="graphical"></span>
+    </div>
+
+    <script src="./js/menu/index.js"></script>
+    <script src="js/modal/cadastroAutores.js"></script>
+    <script src="js/modal/cadastroAlunos.js"></script>
+    <script src="js/modal/cadastroProfessores.js"></script>
+    <script src="js/modal/cadastroLivros.js"></script>
+    <script src="js/main/canvas.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            loadModule('home');
+        });
+    </script>
+</body>
+
+</html>

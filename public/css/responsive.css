@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+	aside.sidebar {
+		width: 200px;
+	}
+
+	.overlay {
+		width: 80%;
+	}
+}
+
+@media (max-width: 576px) {
+	.container {
+		flex-direction: column;
+	}
+
+	aside.sidebar {
+		width: 100%;
+		height: auto;
+	}
+
+	.overlay {
+		width: 100%;
+	}
+}

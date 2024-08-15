@@ -1,0 +1,54 @@
+.headerRow {
+	color: #2c3e50;
+}
+
+.navTitle {
+	font-size: 1.5rem;
+	text-size-adjust: 2rem;
+}
+
+/* Cabeçalho */
+.header {
+	position: fixed;
+	background-color: #f8f9fa;
+	width: 84%;
+	height: 80px;
+	align-content: center;
+	margin: -20px;
+	z-index: 3;
+   }
+   .headerRow {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+   }
+   
+.schoolNameAndIcon {
+	color: #333;
+	display: flex;
+	align-items: center;
+}
+
+.schoolNameAndIcon i {
+	margin-right: 20px;
+	font-size: 25px;
+}
+
+/* Contêiner de cartões */
+.cards-container {
+	display: flex;
+	gap: 20px;
+}
+
+/* Cartão de Conteúdo */
+.card {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-left: 3px solid #3498db;
+	flex: 1;
+}
